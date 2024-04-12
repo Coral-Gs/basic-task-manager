@@ -9,17 +9,17 @@ export class TaskService {
   public tasksList: Task[] = [
     {
       id: uuid(),
-      nombre: 'Curso de Angular',
+      nombre: 'Tarea de prueba',
       completado: false,
     },
     {
       id: uuid(),
-      nombre: 'Leer emails',
+      nombre: 'Tarea de prueba',
       completado: false,
     },
     {
       id: uuid(),
-      nombre: 'Revisar documentación',
+      nombre: 'Tarea de prueba',
       completado: false,
     },
   ];
